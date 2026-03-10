@@ -2,8 +2,8 @@ import httpx
 import json
 
 class ClicksignClient:
-    BASE_URL = "https://sandbox.clicksign.com/api/v2/acceptance_term"
-    ACCESS_TOKEN = "5e45a874-d931-4518-9db4-13395ba52cd4"
+    BASE_URL = "https://app.clicksign.com/api/v2/acceptance_term"
+    ACCESS_TOKEN = "6fcdf6ef-b694-459f-8374-05e2bb42bf44"
 
     async def sendWhatsappAcceptance(self, data):
         payload = {
